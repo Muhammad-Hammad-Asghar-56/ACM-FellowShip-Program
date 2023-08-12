@@ -71,6 +71,6 @@ function showRiddle() {
     cleanAll();
     let jokeContent = document.querySelector(".riddleContainer");
     let newPara = document.createElement('p');
-    newPara.innerText=getRandom(quotes);
+    newPara.innerText=getRandom(quotes  );
     jokeContent.appendChild(newPara);
 }
