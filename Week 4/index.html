@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <h1 id="heading">Tic-Tac-Toe</h1>
+    <div class="container">
+        <p data-id="label">Player 1 turn's up</p>
+    </div>
+    <div id="board" class="board">
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+      <div class="cell" data-id="Square"></div>
+    </div>
+
+    <div id="analytics">
+      <div class="box player1">
+        Player 1
+        <p id="player1Wins">0</p>
+      </div>
+      <div class="box tie">
+        Tie
+        <p id="ties">0</p>
+      </div>
+      <div class="box player2">
+        Player 2
+        <p id="player2Wins">0</p>
+      </div>
+    </div>
+    <script src="./js/App.js"></script>
+  </body>
+</html>
